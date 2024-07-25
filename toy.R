@@ -1,3 +1,4 @@
+library(tidyverse)
 
 #setup toy example
 m = matrix(
@@ -43,7 +44,7 @@ levels(labels$easy_read) = c("A","B","C","D")
 
 labels %>% select(Year,Task,label)
 
-write_csv(year_updates, file = "toy_updates.csv")
+write_csv(labels, file = "toy_labels.csv")
 
 #label2 includes some values not in label 1
 
