@@ -1,0 +1,22 @@
+"CFR_Part","Name_of_Part","Year","Next_Edition","Name_of_Part_Next_Edition","lv_distances","presumed_same","same_next_edition"
+201,"Discounts for and advances to member banks by Federal Reserve banks",1938,1949,"Advances and discounts by Federal Reserve Banks",32,FALSE,201
+202,"Open market purchases of bills of exchange, trade acceptances, bankers’ acceptances",1938,1949,"Open market purchases of bills of exchange, trade acceptances, bankers’ acceptances",0,TRUE,202
+203,"Acceptance by member banks of drafts and bills of exchange",1938,1949,"Acceptance by member banks of drafts or bills of exchange",3,FALSE,203
+204,"Reserves of member banks",1938,1949,"Reserves of member banks",0,TRUE,204
+205,"Purchase of warrants",1938,1949,"Purchase of warrants",0,TRUE,205
+206,"Trust powers of national banks",1938,1949,"Trust powers of national banks",0,TRUE,206
+207,"Rediscount of notes secured by adjusted service certificates",1938,1949,"Collection of noncash items",46,FALSE,NA
+208,"Membership of State banking institutions in Federal Reserve System",1938,1949,"Membership of State banking institutions in the Federal Reserve System",4,FALSE,208
+209,"Issue and cancelation of capital stock of Federal Reserve banks",1938,1949,"Issue and cancellation of capital stock of Federal Reserve banks",1,TRUE,209
+210,"Check clearing and collection",1938,1949,"Check clearing and collection",0,TRUE,210
+211,"Banking corporations authorized to do foreign banking business under section 25 (a), Federal Reserve Act",1938,1949,"Corporations doing foreign banking or other foreign financing under the Federal Reserve Act",54,FALSE,211
+212,"Interlocking bank directorates under the Clayton Act",1938,1949,"Interlocking bank directorates under the Clayton Act",0,TRUE,212
+213,"Foreign branches of national banks and of corporations organized under section 25 (a), Federal Reserve Act",1938,1949,"Foreign branches of national banks and of corporations organized under section 25 (a), Federal Reserve Act",0,TRUE,213
+214,"Relations with foreign banks and bankers",1938,1949,"Relations with foreign banks and bankers",0,TRUE,214
+215,"Loans to executive officers of member banks",1938,1949,"Loans to executive officers of member banks",0,TRUE,215
+216,"Holding company affiliates; voting permits",1938,1949,"Holding company affiliates; voting permits",0,TRUE,216
+217,"Payment of interest on deposits",1938,1949,"Payment of interest on deposits",0,TRUE,217
+218,"Relations with dealers in securities under section 32, Banking Act of 1933",1938,1949,"Relations with dealers in securities under section 32, Banking Act of 1933",0,TRUE,218
+219,"Loans by Federal Reserve banks to industrial or commercial businesses",1938,1949,"Industrial loans by Federal Reserve banks",49,FALSE,219
+220,"Credit by brokers, dealers, members of national securities exchanges",1938,1949,"Credit by brokers, dealers, and members of national securities exchanges",4,FALSE,220
+221,"Loans by banks for the purpose of purchasing or carrying registered stocks",1938,1949,"Loans by banks for the purpose of purchasing or carrying registered stocks",0,TRUE,221

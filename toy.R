@@ -43,9 +43,10 @@ levels(labels$easy_read) = c("A","B","C","D")
 
 labels %>% select(Year,Task,label)
 
+write_csv(year_updates, file = "toy_updates.csv")
+
 #label2 includes some values not in label 1
 
-fct_recode(tasks,!!!translator)
 "Illustration
 1->1>->1; A
 2->3->3; B
