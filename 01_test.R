@@ -1,38 +1,28 @@
-library(tidyverse)
+library(ggplot2)
+library(dplyr)
 
 # Load the data
-data <- read.csv('matched_test.csv')
+data <- read.csv("test_labels_final.csv")
 
-# Rename columns to match the original example
-colnames(data) <- c("CFR.Part", "Name.of.the.Part", "Year", "Next.Edition", "Next.Name.of.the.Part", "lv_distances", "presumed_same", "same_next_edition")
+# Process the data to identify the start, end, and reassignment years
+task_info <- data %>%
+  group_by(label) %>%
+  summarise(start = min(Year), end = max(Year), Task = first(Task)) %>%
+  mutate(Task = as.factor(Task))
 
-# Setup the data frame similar to the original example
-map <- data |> 
-  select(Year, CFR.Part, Next.Edition, same_next_edition) %>%
-  rename(Task = CFR.Part, Next.Year = Next.Edition, Next.Task = same_next_edition)
+# Identify reassigned tasks (task number and first few numbers of the label don't match)
+data$label_prefix <- as.numeric(sub("\\(.*", "", data$label))
+reassigned_tasks <- data %>%
+  filter(Task != label_prefix) %>%
+  mutate(Task = as.factor(Task))
 
-# Combine the columns into a factor label
-labels <- map |> 
-  mutate(label1 = paste0(Task, " (Yr ", Year, ")"),
-         label2 = paste0(Next.Task, " (Yr ", Next.Year, ")"))
-
-# The tasks are defined by the left column
-tasks <- factor(labels$label1)
-
-# Recode the tasks for each year
-for (year in max(labels$Year):min(labels$Year)) {
-  year_updates <- labels |> filter(Year == year)
-  to_recode <- year_updates$label2
-  recode_as <- year_updates$label1
-  names(to_recode) <- recode_as
-  tasks <- fct_recode(tasks, !!!to_recode)
-}
-
-# Prepare the relabeling function
-labels$label <- tasks
-
-# Select the final columns to display
-final_labels <- labels |> select(Year, Task, label)
-final_labels
-
-write_csv(labels, file = "test_labels.csv")
+# Prepare the plot
+ggplot() +
+  geom_segment(data=task_info, aes(x=start, xend=end, y=label, yend=label), color="blue") +
+  geom_point(data=task_info, aes(x=start, y=label), color="blue", shape=1, size=3) +
+  geom_point(data=task_info, aes(x=end, y=label), color="blue", size=3) +
+  geom_point(data=reassigned_tasks, 
+             aes(x=Year, y=label), color="red", shape=4, size=3) +
+  scale_y_discrete(limits = task_info$label) +
+  labs(x="Year", y="Task", title="Task Changes and Continuities Over Time") +
+  theme_minimal()
