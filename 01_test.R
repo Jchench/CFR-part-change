@@ -1,7 +1,7 @@
 library(tidyverse)
 
 # Load the data
-data <- read.csv('cleaning_matched_titles - cleaned.csv')
+data <- read.csv('matched_test.csv')
 
 # Rename columns to match the original example
 colnames(data) <- c("CFR.Part", "Name.of.the.Part", "Year", "Next.Edition", "Next.Name.of.the.Part", "lv_distances", "presumed_same", "same_next_edition")
@@ -35,4 +35,4 @@ labels$label <- tasks
 final_labels <- labels |> select(Year, Task, label)
 final_labels
 
-write_csv(final_labels, file = "test_labels.csv")
+write_csv(labels, file = "test_labels.csv")
