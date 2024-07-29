@@ -16,13 +16,21 @@ reassigned_tasks <- data |>
   filter(Task != label_prefix) |>
   mutate(Task = as.factor(Task))
 
+# Identify dropped tasks (task and label combination appear only once)
+dropped_tasks <- data |>
+  group_by(label, Task) |>
+  filter(n() == 1) |>
+  ungroup()
+
 # Prepare the plot
 ggplot() +
-  geom_segment(data=task_info, aes(x=start, xend=end, y=label, yend=label), color="blue") +
-  geom_point(data=task_info, aes(x=start, y=label), color="blue", shape=1, size=3) +
-  geom_point(data=task_info, aes(x=end, y=label), color="blue", size=3) +
+  geom_segment(data=task_info, aes(x=start, xend=end, y=label, yend=label)) +
+  geom_point(data=task_info, aes(x=start, y=label), shape=1, size=3) +
+  geom_point(data=task_info, aes(x=end, y=label), size=3) +
   geom_point(data=reassigned_tasks, 
              aes(x=Year, y=label), color="red", shape=4, size=3) +
+  geom_point(data=dropped_tasks, 
+             aes(x=Year, y=label), size=3) +
   scale_y_discrete(limits = task_info$label) +
   labs(x="Year", y="Task", title="Task Changes and Continuities Over Time") +
   theme_minimal()
