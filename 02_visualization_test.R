@@ -45,4 +45,4 @@ plot <-
   theme(axis.text.y = element_text(size = 3)) +
   facet_wrap(~ Category, scales = "free_y", ncol = 1)
 
-ggsave("task_changes_plot2.png", plot = plot, width = 6.5, height = 9)
+ggsave("task_changes_plot.png", plot = plot, width = 6.5, height = 9)
