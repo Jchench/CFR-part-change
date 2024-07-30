@@ -1235,7 +1235,7 @@ CFR Part,Name of the Part,Year,Next.Edition,Name of the Part (Next Edition),Year
 227,Unfair or deceptive acts or practices,1993,1994,Unfair or deceptive acts or practices (Regulation AA),1994,16,FALSE,227,consumer regulation
 228,Community reinvestment,1993,1994,Community reinvestment (Regulation BB),1994,16,FALSE,228,other
 229,Availability of funds and collection of checks,1993,1994,Availability of funds and collection of checks (Regulation CC),1994,16,FALSE,229,other
-230,Truth in Savings (Regulation DD),1993,1994,Truth in Savings (Regulation DD),1994,0,TRUE,230,consumer regulation
+230,Truth in Savings (Regulation DD),1993,1994,Truth in Savings (Regulation DD),1994,0,TRUE,230,prudential regulation
 245,Loan guarantees for defense production,1993,1994,Loan guarantees for defense production (Regulation V),1994,15,FALSE,245,other
 250,Miscellaneous interpretations,1993,1994,Miscellaneous interpretations,1994,0,TRUE,250,other
 261,Rules regarding availability of information,1993,1994,Rules regarding availability of information,1994,0,TRUE,261,other
@@ -1258,34 +1258,34 @@ CFR Part,Name of the Part,Year,Next.Edition,Name of the Part (Next Edition),Year
 272,Rules of procedure,1993,1994,Rules of procedure,1994,0,TRUE,272,other
 281,Statements of policy,1993,1994,Statements of policy,1994,0,TRUE,281,other
 201,Extensions of credit by Federal Reserve banks (Regulation A),1994,1995,Extensions of credit by Federal Reserve banks (Regulation A),1995,0,TRUE,201,monetary policy
-202,Equal credit opportunity (Regulation B),1994,1995,Equal credit opportunity (Regulation B),1995,0,TRUE,202,consumer regulation
-203,Home mortgage disclosure (Regulation C),1994,1995,Home mortgage disclosure (Regulation C),1995,0,TRUE,203,consumer regulation
-204,Reserve requirements of depository institutions (Regulation D),1994,1995,Reserve requirements of depository institutions (Regulation D),1995,0,TRUE,204,other
-205,Electronic fund transfers (Regulation E),1994,1995,Electronic fund transfers (Regulation E),1995,0,TRUE,205,other
-206,Limitations on Interbank Liabilities (Regulation F),1994,1995,Limitations on Interbank Liabilities (Regulation F),1995,0,TRUE,206,other
-207,"Securities credit by persons other than banks, brokers, or dealers (Regulation G)",1994,1995,"Securities credit by persons other than banks, brokers, or dealers (Regulation G)",1995,0,TRUE,207,consumer regulation
+202,Equal credit opportunity (Regulation B),1994,1995,Equal credit opportunity (Regulation B),1995,0,TRUE,202,prudential regulation
+203,Home mortgage disclosure (Regulation C),1994,1995,Home mortgage disclosure (Regulation C),1995,0,TRUE,203,prudential regulation
+204,Reserve requirements of depository institutions (Regulation D),1994,1995,Reserve requirements of depository institutions (Regulation D),1995,0,TRUE,204,prudential regulation
+205,Electronic fund transfers (Regulation E),1994,1995,Electronic fund transfers (Regulation E),1995,0,TRUE,205,prudential regulation
+206,Limitations on Interbank Liabilities (Regulation F),1994,1995,Limitations on Interbank Liabilities (Regulation F),1995,0,TRUE,206,prudential regulation
+207,"Securities credit by persons other than banks, brokers, or dealers (Regulation G)",1994,1995,"Securities credit by persons other than banks, brokers, or dealers (Regulation G)",1995,0,TRUE,207,prudential regulation
 208,Membership of State banking institutions in the Federal Reserve System (Regulation H),1994,1995,Membership of State banking institutions in the Federal Reserve System (Regulation H),1995,0,TRUE,208,monetary policy
 209,Issue and cancellation of capital stock of Federal Reserve banks (Regulation I),1994,1995,Issue and cancellation of capital stock of Federal Reserve banks (Regulation I),1995,0,TRUE,209,monetary policy
 210,Collection of checks and other items by Federal Reserve banks and funds transfers through Fedwire (Regulation J),1994,1995,Collection of checks and other items by Federal Reserve banks and funds transfers through Fedwire (Regulation J),1995,0,TRUE,210,monetary policy
-211,International banking operations (Regulation K),1994,1995,International banking operations (Regulation K),1995,0,TRUE,211,other
-212,Management official interlocks (Regulation L),1994,1995,Management official interlocks (Regulation L),1995,0,TRUE,212,other
-213,Consumer leasing (Regulation M),1994,1995,Consumer leasing (Regulation M),1995,0,TRUE,213,consumer regulation
-214,Relations with foreign banks and bankers (Regulation N),1994,1995,Relations with foreign banks and bankers (Regulation N),1995,0,TRUE,214,other
-215,"Loans to executive officers, directors, and principal shareholders of member banks (Regulation O)",1994,1995,"Loans to executive officers, directors, and principal shareholders of member banks (Regulation O)",1995,0,TRUE,215,other
-216,Security procedures (Regulation P),1994,1995,Security procedures (Regulation P),1995,0,TRUE,216,other
+211,International banking operations (Regulation K),1994,1995,International banking operations (Regulation K),1995,0,TRUE,211,prudential regulation
+212,Management official interlocks (Regulation L),1994,1995,Management official interlocks (Regulation L),1995,0,TRUE,212,prudential regulation
+213,Consumer leasing (Regulation M),1994,1995,Consumer leasing (Regulation M),1995,0,TRUE,213,prudential regulation
+214,Relations with foreign banks and bankers (Regulation N),1994,1995,Relations with foreign banks and bankers (Regulation N),1995,0,TRUE,214,prudential regulation
+215,"Loans to executive officers, directors, and principal shareholders of member banks (Regulation O)",1994,1995,"Loans to executive officers, directors, and principal shareholders of member banks (Regulation O)",1995,0,TRUE,215,prudential regulation
+216,Security procedures (Regulation P),1994,1995,Security procedures (Regulation P),1995,0,TRUE,216,prudential regulation
 217,Prohibition against the payment of interest on demand deposits (Regulation Q),1994,1995,Prohibition against the payment of interest on demand deposits (Regulation Q),1995,0,TRUE,217,monetary policy
-218,"Relations with dealers in securities under section 32, Banking Act of 1933 (Regulation R)",1994,1995,"Relations with dealers in securities under section 32, Banking Act of 1933 (Regulation R)",1995,0,TRUE,218,other
-219,Reimbursement to financial institutions for assembling or providing financial records (Regulation S),1994,1995,Reimbursement to financial institutions for assembling or providing financial records (Regulation S),1995,0,TRUE,219,other
-220,Credit by brokers and dealers (Regulation T),1994,1995,Credit by brokers and dealers (Regulation T),1995,0,TRUE,220,consumer regulation
-221,Credit by banks for the purpose of purchasing or carrying margin stock (Regulation U),1994,1995,Credit by banks for the purpose of purchasing or carrying margin stock (Regulation U),1995,0,TRUE,221,consumer regulation
-224,Borrowers of securities credit (Regulation X),1994,1995,Borrowers of securities credit (Regulation X),1995,0,TRUE,224,consumer regulation
-225,Bank holding companies and change in bank control (Regulation Y),1994,1995,Bank holding companies and change in bank control (Regulation Y),1995,0,TRUE,225,other
-226,Truth in lending (Regulation Z),1994,1995,Truth in lending (Regulation Z),1995,0,TRUE,226,consumer regulation
-227,Unfair or deceptive acts or practices (Regulation AA),1994,1995,Unfair or deceptive acts or practices (Regulation AA),1995,0,TRUE,227,consumer regulation
-228,Community reinvestment (Regulation BB),1994,1995,Community reinvestment (Regulation BB),1995,0,TRUE,228,other
-229,Availability of funds and collection of checks (Regulation CC),1994,1995,Availability of funds and collection of checks (Regulation CC),1995,0,TRUE,229,other
-230,Truth in Savings (Regulation DD),1994,1995,Truth in Savings (Regulation DD),1995,0,TRUE,230,consumer regulation
-245,Loan guarantees for defense production (Regulation V),1994,1995,Loan guarantees for defense production (Regulation EE),1995,2,TRUE,245,other
+218,"Relations with dealers in securities under section 32, Banking Act of 1933 (Regulation R)",1994,1995,"Relations with dealers in securities under section 32, Banking Act of 1933 (Regulation R)",1995,0,TRUE,218,prudential regulation
+219,Reimbursement to financial institutions for assembling or providing financial records (Regulation S),1994,1995,Reimbursement to financial institutions for assembling or providing financial records (Regulation S),1995,0,TRUE,219,prudential regulation
+220,Credit by brokers and dealers (Regulation T),1994,1995,Credit by brokers and dealers (Regulation T),1995,0,TRUE,220,prudential regulation
+221,Credit by banks for the purpose of purchasing or carrying margin stock (Regulation U),1994,1995,Credit by banks for the purpose of purchasing or carrying margin stock (Regulation U),1995,0,TRUE,221,prudential regulation
+224,Borrowers of securities credit (Regulation X),1994,1995,Borrowers of securities credit (Regulation X),1995,0,TRUE,224,prudential regulation
+225,Bank holding companies and change in bank control (Regulation Y),1994,1995,Bank holding companies and change in bank control (Regulation Y),1995,0,TRUE,225,prudential regulation
+226,Truth in lending (Regulation Z),1994,1995,Truth in lending (Regulation Z),1995,0,TRUE,226,prudential regulation
+227,Unfair or deceptive acts or practices (Regulation AA),1994,1995,Unfair or deceptive acts or practices (Regulation AA),1995,0,TRUE,227,prudential regulation
+228,Community reinvestment (Regulation BB),1994,1995,Community reinvestment (Regulation BB),1995,0,TRUE,228,prudential regulation
+229,Availability of funds and collection of checks (Regulation CC),1994,1995,Availability of funds and collection of checks (Regulation CC),1995,0,TRUE,229,prudential regulation
+230,Truth in Savings (Regulation DD),1994,1995,Truth in Savings (Regulation DD),1995,0,TRUE,230,prudential regulation
+245,Loan guarantees for defense production (Regulation V),1994,1995,Loan guarantees for defense production (Regulation EE),1995,2,TRUE,245,prudential regulation
 250,Miscellaneous interpretations,1994,1995,Miscellaneous interpretations,1995,0,TRUE,250,other
 261,Rules regarding availability of information,1994,1995,Rules regarding availability of information,1995,0,TRUE,261,other
 261a,Rules regarding access to and review of personal information in systems of records,1994,1995,Rules regarding access to and review of personal information in systems of records,1995,0,TRUE,261a,other
@@ -1307,34 +1307,34 @@ CFR Part,Name of the Part,Year,Next.Edition,Name of the Part (Next Edition),Year
 272,Rules of procedure,1994,1995,Rules of procedure,1995,0,TRUE,272,other
 281,Statements of policy,1994,1995,Statements of policy,1995,0,TRUE,281,other
 201,Extensions of credit by Federal Reserve banks (Regulation A),1995,1996,Extensions of credit by Federal Reserve banks (Regulation A),1996,0,TRUE,201,monetary policy
-202,Equal credit opportunity (Regulation B),1995,1996,Equal credit opportunity (Regulation B),1996,0,TRUE,202,consumer regulation
-203,Home mortgage disclosure (Regulation C),1995,1996,Home mortgage disclosure (Regulation C),1996,0,TRUE,203,consumer regulation
-204,Reserve requirements of depository institutions (Regulation D),1995,1996,Reserve requirements of depository institutions (Regulation D),1996,0,TRUE,204,other
-205,Electronic fund transfers (Regulation E),1995,1996,Electronic fund transfers (Regulation E),1996,0,TRUE,205,other
-206,Limitations on Interbank Liabilities (Regulation F),1995,1996,Limitations on Interbank Liabilities (Regulation F),1996,0,TRUE,206,other
-207,"Securities credit by persons other than banks, brokers, or dealers (Regulation G)",1995,1996,"Securities credit by persons other than banks, brokers, or dealers (Regulation G)",1996,0,TRUE,207,consumer regulation
+202,Equal credit opportunity (Regulation B),1995,1996,Equal credit opportunity (Regulation B),1996,0,TRUE,202,prudential regulation
+203,Home mortgage disclosure (Regulation C),1995,1996,Home mortgage disclosure (Regulation C),1996,0,TRUE,203,prudential regulation
+204,Reserve requirements of depository institutions (Regulation D),1995,1996,Reserve requirements of depository institutions (Regulation D),1996,0,TRUE,204,prudential regulation
+205,Electronic fund transfers (Regulation E),1995,1996,Electronic fund transfers (Regulation E),1996,0,TRUE,205,prudential regulation
+206,Limitations on Interbank Liabilities (Regulation F),1995,1996,Limitations on Interbank Liabilities (Regulation F),1996,0,TRUE,206,prudential regulation
+207,"Securities credit by persons other than banks, brokers, or dealers (Regulation G)",1995,1996,"Securities credit by persons other than banks, brokers, or dealers (Regulation G)",1996,0,TRUE,207,prudential regulation
 208,Membership of State banking institutions in the Federal Reserve System (Regulation H),1995,1996,Membership of State banking institutions in the Federal Reserve System (Regulation H),1996,0,TRUE,208,monetary policy
 209,Issue and cancellation of capital stock of Federal Reserve banks (Regulation I),1995,1996,Issue and cancellation of capital stock of Federal Reserve banks (Regulation I),1996,0,TRUE,209,monetary policy
 210,Collection of checks and other items by Federal Reserve banks and funds transfers through Fedwire (Regulation J),1995,1996,Collection of checks and other items by Federal Reserve banks and funds transfers through Fedwire (Regulation J),1996,0,TRUE,210,monetary policy
-211,International banking operations (Regulation K),1995,1996,International banking operations (Regulation K),1996,0,TRUE,211,other
-212,Management official interlocks (Regulation L),1995,1996,Management official interlocks (Regulation L),1996,0,TRUE,212,other
-213,Consumer leasing (Regulation M),1995,1996,Consumer leasing (Regulation M),1996,0,TRUE,213,consumer regulation
-214,Relations with foreign banks and bankers (Regulation N),1995,1996,Relations with foreign banks and bankers (Regulation N),1996,0,TRUE,214,other
-215,"Loans to executive officers, directors, and principal shareholders of member banks (Regulation O)",1995,1996,"Loans to executive officers, directors, and principal shareholders of member banks (Regulation O)",1996,0,TRUE,215,other
-216,Security procedures (Regulation P),1995,1996,Security procedures (Regulation P),1996,0,TRUE,216,other
+211,International banking operations (Regulation K),1995,1996,International banking operations (Regulation K),1996,0,TRUE,211,prudential regulation
+212,Management official interlocks (Regulation L),1995,1996,Management official interlocks (Regulation L),1996,0,TRUE,212,prudential regulation
+213,Consumer leasing (Regulation M),1995,1996,Consumer leasing (Regulation M),1996,0,TRUE,213,prudential regulation
+214,Relations with foreign banks and bankers (Regulation N),1995,1996,Relations with foreign banks and bankers (Regulation N),1996,0,TRUE,214,prudential regulation
+215,"Loans to executive officers, directors, and principal shareholders of member banks (Regulation O)",1995,1996,"Loans to executive officers, directors, and principal shareholders of member banks (Regulation O)",1996,0,TRUE,215,prudential regulation
+216,Security procedures (Regulation P),1995,1996,Security procedures (Regulation P),1996,0,TRUE,216,prudential regulation
 217,Prohibition against the payment of interest on demand deposits (Regulation Q),1995,1996,Prohibition against the payment of interest on demand deposits (Regulation Q),1996,0,TRUE,217,monetary policy
-218,"Relations with dealers in securities under section 32, Banking Act of 1933 (Regulation R)",1995,1996,"Relations with dealers in securities under section 32, Banking Act of 1933 (Regulation R)",1996,0,TRUE,218,other
-219,Reimbursement to financial institutions for assembling or providing financial records (Regulation S),1995,1996,Reimbursement to financial institutions for providing financial records; recordkeeping requirements for certain financial records (Regulation S),1996,56,FALSE,219,other
-220,Credit by brokers and dealers (Regulation T),1995,1996,Credit by brokers and dealers (Regulation T),1996,0,TRUE,220,consumer regulation
-221,Credit by banks for the purpose of purchasing or carrying margin stock (Regulation U),1995,1996,Credit by banks for the purpose of purchasing or carrying margin stock (Regulation U),1996,0,TRUE,221,consumer regulation
-224,Borrowers of securities credit (Regulation X),1995,1996,Borrowers of securities credit (Regulation X),1996,0,TRUE,224,consumer regulation
-225,Bank holding companies and change in bank control (Regulation Y),1995,1996,Bank holding companies and change in bank control (Regulation Y),1996,0,TRUE,225,other
-226,Truth in lending (Regulation Z),1995,1996,Truth in lending (Regulation Z),1996,0,TRUE,226,consumer regulation
-227,Unfair or deceptive acts or practices (Regulation AA),1995,1996,Unfair or deceptive acts or practices (Regulation AA),1996,0,TRUE,227,consumer regulation
-228,Community reinvestment (Regulation BB),1995,1996,Community reinvestment (Regulation BB),1996,0,TRUE,228,other
-229,Availability of funds and collection of checks (Regulation CC),1995,1996,Availability of funds and collection of checks (Regulation CC),1996,0,TRUE,229,other
-230,Truth in Savings (Regulation DD),1995,1996,Truth in Savings (Regulation DD),1996,0,TRUE,230,consumer regulation
-245,Loan guarantees for defense production (Regulation EE),1995,1996,Loan guarantees for defense production (Regulation V),1996,2,TRUE,245,other
+218,"Relations with dealers in securities under section 32, Banking Act of 1933 (Regulation R)",1995,1996,"Relations with dealers in securities under section 32, Banking Act of 1933 (Regulation R)",1996,0,TRUE,218,prudential regulation
+219,Reimbursement to financial institutions for assembling or providing financial records (Regulation S),1995,1996,Reimbursement to financial institutions for providing financial records; recordkeeping requirements for certain financial records (Regulation S),1996,56,FALSE,219,prudential regulation
+220,Credit by brokers and dealers (Regulation T),1995,1996,Credit by brokers and dealers (Regulation T),1996,0,TRUE,220,prudential regulation
+221,Credit by banks for the purpose of purchasing or carrying margin stock (Regulation U),1995,1996,Credit by banks for the purpose of purchasing or carrying margin stock (Regulation U),1996,0,TRUE,221,prudential regulation
+224,Borrowers of securities credit (Regulation X),1995,1996,Borrowers of securities credit (Regulation X),1996,0,TRUE,224,prudential regulation
+225,Bank holding companies and change in bank control (Regulation Y),1995,1996,Bank holding companies and change in bank control (Regulation Y),1996,0,TRUE,225,prudential regulation
+226,Truth in lending (Regulation Z),1995,1996,Truth in lending (Regulation Z),1996,0,TRUE,226,prudential regulation
+227,Unfair or deceptive acts or practices (Regulation AA),1995,1996,Unfair or deceptive acts or practices (Regulation AA),1996,0,TRUE,227,prudential regulation
+228,Community reinvestment (Regulation BB),1995,1996,Community reinvestment (Regulation BB),1996,0,TRUE,228,prudential regulation
+229,Availability of funds and collection of checks (Regulation CC),1995,1996,Availability of funds and collection of checks (Regulation CC),1996,0,TRUE,229,prudential regulation
+230,Truth in Savings (Regulation DD),1995,1996,Truth in Savings (Regulation DD),1996,0,TRUE,230,prudential regulation
+245,Loan guarantees for defense production (Regulation EE),1995,1996,Loan guarantees for defense production (Regulation V),1996,2,TRUE,245,prudential regulation
 250,Miscellaneous interpretations,1995,1996,Miscellaneous interpretations,1996,0,TRUE,250,other
 261,Rules regarding availability of information,1995,1996,NA,NA,NA,NA,NA,other
 261a,Rules regarding access to and review of personal information in systems of records,1995,1996,Rules regarding access to personal information Under the Privacy Act of 1974,1996,38,FALSE,261a,other
@@ -1356,35 +1356,35 @@ CFR Part,Name of the Part,Year,Next.Edition,Name of the Part (Next Edition),Year
 272,Rules of procedure,1995,1996,Rules of procedure,1996,0,TRUE,272,other
 281,Statements of policy,1995,1996,Statements of policy,1996,0,TRUE,281,other
 201,Extensions of credit by Federal Reserve banks (Regulation A),1996,1997,Extensions of credit by Federal Reserve banks (Regulation A),1997,0,TRUE,201,monetary policy
-202,Equal credit opportunity (Regulation B),1996,1997,Equal credit opportunity (Regulation B),1997,0,TRUE,202,consumer regulation
-203,Home mortgage disclosure (Regulation C),1996,1997,Home mortgage disclosure (Regulation C),1997,0,TRUE,203,consumer regulation
-204,Reserve requirements of depository institutions (Regulation D),1996,1997,Reserve requirements of depository institutions (Regulation D),1997,0,TRUE,204,other
-205,Electronic fund transfers (Regulation E),1996,1997,Electronic fund transfers (Regulation E),1997,0,TRUE,205,other
-206,Limitations on Interbank Liabilities (Regulation F),1996,1997,Limitations on Interbank Liabilities (Regulation F),1997,0,TRUE,206,other
-207,"Securities credit by persons other than banks, brokers, or dealers (Regulation G)",1996,1997,"Securities credit by persons other than banks, brokers, or dealers (Regulation G)",1997,0,TRUE,207,consumer regulation
+202,Equal credit opportunity (Regulation B),1996,1997,Equal credit opportunity (Regulation B),1997,0,TRUE,202,prudential regulation
+203,Home mortgage disclosure (Regulation C),1996,1997,Home mortgage disclosure (Regulation C),1997,0,TRUE,203,prudential regulation
+204,Reserve requirements of depository institutions (Regulation D),1996,1997,Reserve requirements of depository institutions (Regulation D),1997,0,TRUE,204,prudential regulation
+205,Electronic fund transfers (Regulation E),1996,1997,Electronic fund transfers (Regulation E),1997,0,TRUE,205,prudential regulation
+206,Limitations on Interbank Liabilities (Regulation F),1996,1997,Limitations on Interbank Liabilities (Regulation F),1997,0,TRUE,206,prudential regulation
+207,"Securities credit by persons other than banks, brokers, or dealers (Regulation G)",1996,1997,"Securities credit by persons other than banks, brokers, or dealers (Regulation G)",1997,0,TRUE,207,prudential regulation
 208,Membership of State banking institutions in the Federal Reserve System (Regulation H),1996,1997,Membership of State banking institutions in the Federal Reserve System (Regulation H),1997,0,TRUE,208,monetary policy
 209,Issue and cancellation of capital stock of Federal Reserve banks (Regulation I),1996,1997,Issue and cancellation of capital stock of Federal Reserve banks (Regulation I),1997,0,TRUE,209,monetary policy
 210,Collection of checks and other items by Federal Reserve banks and funds transfers through Fedwire (Regulation J),1996,1997,Collection of checks and other items by Federal Reserve banks and funds transfers through Fedwire (Regulation J),1997,0,TRUE,210,monetary policy
-211,International banking operations (Regulation K),1996,1997,International banking operations (Regulation K),1997,0,TRUE,211,other
-212,Management official interlocks (Regulation L),1996,1997,Management official interlocks (Regulation L),1997,0,TRUE,212,other
-213,Consumer leasing (Regulation M),1996,1997,Consumer leasing (Regulation M),1997,0,TRUE,213,consumer regulation
-214,Relations with foreign banks and bankers (Regulation N),1996,1997,Relations with foreign banks and bankers (Regulation N),1997,0,TRUE,214,other
-215,"Loans to executive officers, directors, and principal shareholders of member banks (Regulation O)",1996,1997,"Loans to executive officers, directors, and principal shareholders of member banks (Regulation O)",1997,0,TRUE,215,other
-216,Security procedures (Regulation P),1996,1997,Security procedures (Regulation P),1997,0,TRUE,216,other
+211,International banking operations (Regulation K),1996,1997,International banking operations (Regulation K),1997,0,TRUE,211,prudential regulation
+212,Management official interlocks (Regulation L),1996,1997,Management official interlocks (Regulation L),1997,0,TRUE,212,prudential regulation
+213,Consumer leasing (Regulation M),1996,1997,Consumer leasing (Regulation M),1997,0,TRUE,213,prudential regulation
+214,Relations with foreign banks and bankers (Regulation N),1996,1997,Relations with foreign banks and bankers (Regulation N),1997,0,TRUE,214,prudential regulation
+215,"Loans to executive officers, directors, and principal shareholders of member banks (Regulation O)",1996,1997,"Loans to executive officers, directors, and principal shareholders of member banks (Regulation O)",1997,0,TRUE,215,prudential regulation
+216,Security procedures (Regulation P),1996,1997,Security procedures (Regulation P),1997,0,TRUE,216,prudential regulation
 217,Prohibition against the payment of interest on demand deposits (Regulation Q),1996,1997,Prohibition against the payment of interest on demand deposits (Regulation Q),1997,0,TRUE,217,monetary policy
-218,"Relations with dealers in securities under section 32, Banking Act of 1933 (Regulation R)",1996,1997,NA,NA,NA,NA,NA,other
-219,Reimbursement to financial institutions for providing financial records; recordkeeping requirements for certain financial records (Regulation S),1996,1997,Reimbursement for providing financial records; recordkeeping requirements for certain financial records (Regulation S),1997,26,FALSE,219,other
-220,Credit by brokers and dealers (Regulation T),1996,1997,Credit by brokers and dealers (Regulation T),1997,0,TRUE,220,consumer regulation
-221,Credit by banks for the purpose of purchasing or carrying margin stock (Regulation U),1996,1997,Credit by banks for the purpose of purchasing or carrying margin stock (Regulation U),1997,0,TRUE,221,consumer regulation
-224,Borrowers of securities credit (Regulation X),1996,1997,Borrowers of securities credit (Regulation X),1997,0,TRUE,224,consumer regulation
-225,Bank holding companies and change in bank control (Regulation Y),1996,1997,Bank holding companies and change in bank control (Regulation Y),1997,0,TRUE,225,other
-226,Truth in lending (Regulation Z),1996,1997,Truth in lending (Regulation Z),1997,0,TRUE,226,consumer regulation
-227,Unfair or deceptive acts or practices (Regulation AA),1996,1997,Unfair or deceptive acts or practices (Regulation AA),1997,0,TRUE,227,consumer regulation
-228,Community reinvestment (Regulation BB),1996,1997,Community reinvestment (Regulation BB),1997,0,TRUE,228,other
-229,Availability of funds and collection of checks (Regulation CC),1996,1997,Availability of funds and collection of checks (Regulation CC),1997,0,TRUE,229,other
-230,Truth in Savings (Regulation DD),1996,1997,Truth in Savings (Regulation DD),1997,0,TRUE,230,consumer regulation
-231,Netting eligibility for financial institutions regulation EE,1996,1997,Netting eligibility for financial institutions regulation EE,1997,0,TRUE,231,other
-245,Loan guarantees for defense production (Regulation V),1996,1997,NA,NA,NA,NA,NA,other
+218,"Relations with dealers in securities under section 32, Banking Act of 1933 (Regulation R)",1996,1997,NA,NA,NA,NA,NA,prudential regulation
+219,Reimbursement to financial institutions for providing financial records; recordkeeping requirements for certain financial records (Regulation S),1996,1997,Reimbursement for providing financial records; recordkeeping requirements for certain financial records (Regulation S),1997,26,FALSE,219,prudential regulation
+220,Credit by brokers and dealers (Regulation T),1996,1997,Credit by brokers and dealers (Regulation T),1997,0,TRUE,220,prudential regulation
+221,Credit by banks for the purpose of purchasing or carrying margin stock (Regulation U),1996,1997,Credit by banks for the purpose of purchasing or carrying margin stock (Regulation U),1997,0,TRUE,221,prudential regulation
+224,Borrowers of securities credit (Regulation X),1996,1997,Borrowers of securities credit (Regulation X),1997,0,TRUE,224,prudential regulation
+225,Bank holding companies and change in bank control (Regulation Y),1996,1997,Bank holding companies and change in bank control (Regulation Y),1997,0,TRUE,225,prudential regulation
+226,Truth in lending (Regulation Z),1996,1997,Truth in lending (Regulation Z),1997,0,TRUE,226,prudential regulation
+227,Unfair or deceptive acts or practices (Regulation AA),1996,1997,Unfair or deceptive acts or practices (Regulation AA),1997,0,TRUE,227,prudential regulation
+228,Community reinvestment (Regulation BB),1996,1997,Community reinvestment (Regulation BB),1997,0,TRUE,228,prudential regulation
+229,Availability of funds and collection of checks (Regulation CC),1996,1997,Availability of funds and collection of checks (Regulation CC),1997,0,TRUE,229,prudential regulation
+230,Truth in Savings (Regulation DD),1996,1997,Truth in Savings (Regulation DD),1997,0,TRUE,230,prudential regulation
+231,Netting eligibility for financial institutions regulation EE,1996,1997,Netting eligibility for financial institutions regulation EE,1997,0,TRUE,231,prudential regulation
+245,Loan guarantees for defense production (Regulation V),1996,1997,NA,NA,NA,NA,NA,prudential regulation
 250,Miscellaneous interpretations,1996,1997,Miscellaneous interpretations,1997,0,TRUE,250,other
 261a,Rules regarding access to personal information Under the Privacy Act of 1974,1996,1997,Rules regarding access to personal information Under the Privacy Act of 1974,1997,0,TRUE,261a,other
 261b,Rules regarding public observation of meetings,1996,1997,Rules regarding public observation of meetings,1997,0,TRUE,261b,other
@@ -1405,33 +1405,33 @@ CFR Part,Name of the Part,Year,Next.Edition,Name of the Part (Next Edition),Year
 272,Rules of procedure,1996,1997,Rules of procedure,1997,0,TRUE,272,other
 281,Statements of policy,1996,1997,Statements of policy,1997,0,TRUE,281,other
 201,Extensions of credit by Federal Reserve banks (Regulation A),1997,NA,NA,NA,NA,NA,NA,monetary policy
-202,Equal credit opportunity (Regulation B),1997,NA,NA,NA,NA,NA,NA,consumer regulation
-203,Home mortgage disclosure (Regulation C),1997,NA,NA,NA,NA,NA,NA,consumer regulation
-204,Reserve requirements of depository institutions (Regulation D),1997,NA,NA,NA,NA,NA,NA,other
-205,Electronic fund transfers (Regulation E),1997,NA,NA,NA,NA,NA,NA,other
-206,Limitations on Interbank Liabilities (Regulation F),1997,NA,NA,NA,NA,NA,NA,other
-207,"Securities credit by persons other than banks, brokers, or dealers (Regulation G)",1997,NA,NA,NA,NA,NA,NA,consumer regulation
+202,Equal credit opportunity (Regulation B),1997,NA,NA,NA,NA,NA,NA,prudential regulation
+203,Home mortgage disclosure (Regulation C),1997,NA,NA,NA,NA,NA,NA,prudential regulation
+204,Reserve requirements of depository institutions (Regulation D),1997,NA,NA,NA,NA,NA,NA,prudential regulation
+205,Electronic fund transfers (Regulation E),1997,NA,NA,NA,NA,NA,NA,prudential regulation
+206,Limitations on Interbank Liabilities (Regulation F),1997,NA,NA,NA,NA,NA,NA,prudential regulation
+207,"Securities credit by persons other than banks, brokers, or dealers (Regulation G)",1997,NA,NA,NA,NA,NA,NA,prudential regulation
 208,Membership of State banking institutions in the Federal Reserve System (Regulation H),1997,NA,NA,NA,NA,NA,NA,monetary policy
 209,Issue and cancellation of capital stock of Federal Reserve banks (Regulation I),1997,NA,NA,NA,NA,NA,NA,monetary policy
 210,Collection of checks and other items by Federal Reserve banks and funds transfers through Fedwire (Regulation J),1997,NA,NA,NA,NA,NA,NA,monetary policy
-211,International banking operations (Regulation K),1997,NA,NA,NA,NA,NA,NA,other
-212,Management official interlocks (Regulation L),1997,NA,NA,NA,NA,NA,NA,other
-213,Consumer leasing (Regulation M),1997,NA,NA,NA,NA,NA,NA,consumer regulation
-214,Relations with foreign banks and bankers (Regulation N),1997,NA,NA,NA,NA,NA,NA,other
-215,"Loans to executive officers, directors, and principal shareholders of member banks (Regulation O)",1997,NA,NA,NA,NA,NA,NA,other
-216,Security procedures (Regulation P),1997,NA,NA,NA,NA,NA,NA,other
+211,International banking operations (Regulation K),1997,NA,NA,NA,NA,NA,NA,prudential regulation
+212,Management official interlocks (Regulation L),1997,NA,NA,NA,NA,NA,NA,prudential regulation
+213,Consumer leasing (Regulation M),1997,NA,NA,NA,NA,NA,NA,prudential regulation
+214,Relations with foreign banks and bankers (Regulation N),1997,NA,NA,NA,NA,NA,NA,prudential regulation
+215,"Loans to executive officers, directors, and principal shareholders of member banks (Regulation O)",1997,NA,NA,NA,NA,NA,NA,prudential regulation
+216,Security procedures (Regulation P),1997,NA,NA,NA,NA,NA,NA,prudential regulation
 217,Prohibition against the payment of interest on demand deposits (Regulation Q),1997,NA,NA,NA,NA,NA,NA,monetary policy
-219,Reimbursement for providing financial records; recordkeeping requirements for certain financial records (Regulation S),1997,NA,NA,NA,NA,NA,NA,other
-220,Credit by brokers and dealers (Regulation T),1997,NA,NA,NA,NA,NA,NA,consumer regulation
-221,Credit by banks for the purpose of purchasing or carrying margin stock (Regulation U),1997,NA,NA,NA,NA,NA,NA,consumer regulation
-224,Borrowers of securities credit (Regulation X),1997,NA,NA,NA,NA,NA,NA,consumer regulation
-225,Bank holding companies and change in bank control (Regulation Y),1997,NA,NA,NA,NA,NA,NA,other
-226,Truth in lending (Regulation Z),1997,NA,NA,NA,NA,NA,NA,consumer regulation
-227,Unfair or deceptive acts or practices (Regulation AA),1997,NA,NA,NA,NA,NA,NA,consumer regulation
-228,Community reinvestment (Regulation BB),1997,NA,NA,NA,NA,NA,NA,other
-229,Availability of funds and collection of checks (Regulation CC),1997,NA,NA,NA,NA,NA,NA,other
-230,Truth in Savings (Regulation DD),1997,NA,NA,NA,NA,NA,NA,consumer regulation
-231,Netting eligibility for financial institutions regulation EE,1997,NA,NA,NA,NA,NA,NA,other
+219,Reimbursement for providing financial records; recordkeeping requirements for certain financial records (Regulation S),1997,NA,NA,NA,NA,NA,NA,prudential regulation
+220,Credit by brokers and dealers (Regulation T),1997,NA,NA,NA,NA,NA,NA,prudential regulation
+221,Credit by banks for the purpose of purchasing or carrying margin stock (Regulation U),1997,NA,NA,NA,NA,NA,NA,prudential regulation
+224,Borrowers of securities credit (Regulation X),1997,NA,NA,NA,NA,NA,NA,prudential regulation
+225,Bank holding companies and change in bank control (Regulation Y),1997,NA,NA,NA,NA,NA,NA,prudential regulation
+226,Truth in lending (Regulation Z),1997,NA,NA,NA,NA,NA,NA,prudential regulation
+227,Unfair or deceptive acts or practices (Regulation AA),1997,NA,NA,NA,NA,NA,NA,prudential regulation
+228,Community reinvestment (Regulation BB),1997,NA,NA,NA,NA,NA,NA,prudential regulation
+229,Availability of funds and collection of checks (Regulation CC),1997,NA,NA,NA,NA,NA,NA,prudential regulation
+230,Truth in Savings (Regulation DD),1997,NA,NA,NA,NA,NA,NA,prudential regulation
+231,Netting eligibility for financial institutions regulation EE,1997,NA,NA,NA,NA,NA,NA,prudential regulation
 250,Miscellaneous interpretations,1997,NA,NA,NA,NA,NA,NA,other
 261,Rules regarding availability of information,1997,NA,NA,NA,NA,NA,NA,other
 261a,Rules regarding access to personal information Under the Privacy Act of 1974,1997,NA,NA,NA,NA,NA,NA,other

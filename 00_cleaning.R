@@ -24,7 +24,7 @@ df <-
   df %>% 
   mutate(category = case_when(
     str_detect(`Name of the Part`, regex("discounts|advances|open market|purchases|reserves|federal|interest|monetary", ignore_case = TRUE)) ~ "monetary policy",
-    str_detect(`Name of the Part`, regex("prudential|capital|risk|liquidity|supervision|leverage|safety", ignore_case = TRUE)) ~ "prudential regulation",
+    str_detect(`Name of the Part`, regex("prudential|regulation|capital|risk|liquidity|supervision|leverage|safety", ignore_case = TRUE)) ~ "prudential regulation",
     str_detect(`Name of the Part`, regex("consumer|credit|fair|truth|disclosure|protection|debt|complaints", ignore_case = TRUE)) ~ "consumer regulation",
     TRUE ~ "other"
   ))
