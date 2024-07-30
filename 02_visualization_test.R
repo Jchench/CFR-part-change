@@ -30,19 +30,19 @@ task_info <- task_info |>
                            " (", sub(".*Yr (\\d{4}).*", "\\1", label), ")", sep = ""))
 
 # Visualization
-plot <- 
-  ggplot() +
+plot <- ggplot() +
   geom_segment(data = task_info, aes(x = start, xend = end, y = TaskLabel, yend = TaskLabel),
-               size = 1, alpha = 0.50) +
-  geom_point(data = task_info, aes(x = start, y = TaskLabel), size = 3, alpha = 0.50) +
-  geom_point(data = task_info, aes(x = end, y = TaskLabel), shape = 1, size = 3) +
+               size = 0.75, alpha = 0.50) +
+  geom_point(data = task_info, aes(x = start, y = TaskLabel), size = 1.5, alpha = 0.50) +
+  geom_point(data = task_info, aes(x = end, y = TaskLabel), shape = 1, size = 1.5) +
   geom_point(data = reassigned_tasks, 
              aes(x = Year, y = paste("CFR 12 ", sub(" .*", "", label), 
                                      " (", sub(".*Yr (\\d{4}).*", "\\1", label), ")", sep = "")), 
              shape = 4, size = 3) +
   scale_y_discrete(limits = task_info$TaskLabel) +
   labs(x = "Year", y = "Task", title = "Task Changes and Continuities Over Time") +
-  theme(axis.text.y = element_text(size = 3)) +
-  facet_wrap(~ Category, scales = "free_y", ncol = 1)
+  theme_minimal() +
+  theme(axis.text.y = element_text(size = 2)) +
+  facet_wrap(~ Category, scales = "free_y", shrink = TRUE, drop = TRUE, ncol = 1)
 
-ggsave("task_changes_plot.png", plot = plot, width = 6.5, height = 9)
+ggsave("task_changes_plot.jpg", plot = plot, width = 6.5, height = 9)
