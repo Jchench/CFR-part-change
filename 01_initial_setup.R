@@ -1,10 +1,10 @@
 library(tidyverse)
 
 # Load the data
-data <- read.csv("matched_test.csv")
+data <- read.csv("stacked_data_cleaned.csv")
 
 # Rename columns to match the original example
-colnames(data) <- c("CFR.Part", "Name.of.the.Part", "Year", "Next.Edition", "Next.Name.of.the.Part", "lv_distances", "presumed_same", "same_next_edition")
+colnames(data) <- c("CFR.Part", "Name.of.the.Part", "Year", "Next.Edition", "Next.Name.of.the.Part","Next.Year", "lv_distances", "presumed_same", "same_next_edition")
 
 # Setup the data frame similar to the original example
 map <- data |>
@@ -37,4 +37,4 @@ labels$label <- tasks
 final_labels <- labels |> select(Year, Task, label)
 final_labels
 
-save(labels, file = "test_labels.rda")
+write_csv(labels, file = "labels.csv")

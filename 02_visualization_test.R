@@ -1,8 +1,7 @@
-library(ggplot2)
-library(dplyr)
+library(tidyverse)
 
 # Load the data
-data <- read.csv("test_labels_final.csv")
+data <- read.csv("labels.csv")
 
 # Process the data to identify the start, end, and reassignment years
 task_info <- data |>
