@@ -58,8 +58,8 @@ generate_plot <- function(task_info, reassigned_tasks, category, title) {
     labs(x = NULL, y = NULL, title = title) +
     theme_minimal() +
     theme(plot.title.position = "panel",
-          plot.title = element_text(size = 10),
-          axis.text.y = element_text(size = 7),
+          plot.title = element_text(size = 8, hjust = 0.5),
+          axis.text.y = element_text(size = 6),
           plot.margin = unit(c(0, 0, 0, 0), "cm"))
   
   return(p)
@@ -67,24 +67,31 @@ generate_plot <- function(task_info, reassigned_tasks, category, title) {
 
 # creating plots
 consumer_reg_plot <- 
-  generate_plot(task_info, reassigned_tasks, "consumer regulation", "Consumer Regulation")
+  generate_plot(task_info, reassigned_tasks, "consumer regulation", "Consumer Regulation") +
+  theme(axis.text.x = element_blank())
 
 monetary_pol_plot <- 
-  generate_plot(task_info, reassigned_tasks, "monetary policy", "Monetary Policy")
+  generate_plot(task_info, reassigned_tasks, "monetary policy", "Monetary Policy") +
+  theme(axis.text.x = element_blank())
 
 prudential_reg_plot <- 
-  generate_plot(task_info, reassigned_tasks, "prudential regulation", "Prudential Regulation")
+  generate_plot(task_info, reassigned_tasks, "prudential regulation", "Prudential Regulation") +
+  xlim(1938, 1997) +
+  labs(y = "Task") +
+  theme(axis.text.x = element_blank())
 
 other_plot <- 
-  generate_plot(task_info, reassigned_tasks, "other", "Other")
+  generate_plot(task_info, reassigned_tasks, "other", "Other") +
+  labs(x = "Year")
 
 title <- 
   ggplot() +
   labs(title = "Task Changes and Continuities Over Time") +
-  theme_minimal()
+  theme_minimal() +
+  theme(plot.title.position = "plot")
 
 combined_plot <- 
   plot_grid(title, consumer_reg_plot, monetary_pol_plot, prudential_reg_plot, other_plot,
-            ncol = 1, align = 'v', rel_heights = c(0.065, 0.4, 0.4, 0.15, 1.1))
+            ncol = 1, align = 'v', rel_heights = c(0.065, 0.38, 0.38, 0.12, 1.2))
 
 ggsave("combined_plot.jpg", plot = combined_plot, width = 6.5, height = 9)
