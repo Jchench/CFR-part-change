@@ -29,11 +29,16 @@ df <-
     TRUE ~ "other"
   ))
 
-write_csv(df, file = "stacked_data_cleaned.csv")
+# add activity type
+activity <- 
+  read_csv("actions.csv") |> 
+  janitor::clean_names() |> 
+  mutate(cfr_part = as.character(cfr_part)) |> 
+  distinct(cfr_part, year, next_edition, .keep_all = TRUE) |> 
+  rename("CFR Part" = cfr_part, Year = year, Next.Edition = next_edition, Action = action)
 
 df2 <- 
-  df |> 
-  filter(Year >= 1949)
+  left_join(df, activity, by = c("CFR Part", "Year", "Next.Edition"))
 
-# activity type
+write_csv(df2, file = "stacked_data_cleaned_activity.csv")
 
