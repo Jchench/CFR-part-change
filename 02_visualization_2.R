@@ -55,6 +55,7 @@ generate_plot <- function(task_info, reassigned_tasks, category, title) {
                aes(x = Year, y = label), 
                shape = 4, size = 3) +
     scale_y_discrete(limits = levels(filtered_task_info$TaskLabel)) +
+    xlim(1938, 1997) +
     labs(x = NULL, y = NULL, title = title) +
     theme_minimal() +
     theme(plot.title.position = "panel",
@@ -76,7 +77,6 @@ monetary_pol_plot <-
 
 prudential_reg_plot <- 
   generate_plot(task_info, reassigned_tasks, "prudential regulation", "Prudential Regulation") +
-  xlim(1938, 1997) +
   labs(y = "Task") +
   theme(axis.text.x = element_blank())
 
